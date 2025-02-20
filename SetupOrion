@@ -26907,7 +26907,7 @@ else
 fi
 
 ## Ativando API
-wget -O /var/lib/docker/volumes/krayin${1:+_$1}_data/_data/packages/Webkul/Admin/src/Resources/lang/en/app.php https://raw.githubusercontent.com/oriondesign2015/SetupOrion/refs/heads/main/Extras/Krayin/app.php > /dev/null 2>&1
+wget -O /var/lib/docker/volumes/krayin${1:+_$1}_data/_data/packages/Webkul/Admin/src/Resources/lang/en/app.php https://raw.githubusercontent.com/wscouto2501/SetupOrion/refs/heads/main/Extras/Krayin/app.php > /dev/null 2>&1
 if [ $? -eq 0 ]; then
     echo "8/10 - [ OK ] - Baixando Tradução"
 else
@@ -27562,19 +27562,19 @@ while true; do
 
             # Baixando workflows
 
-            wget "https://raw.githubusercontent.com/DeividMs/QP_Setup_Orion/main/workflows/latest/ChatwootExtra.json"
-            wget "https://raw.githubusercontent.com/DeividMs/QP_Setup_Orion/main/workflows/latest/ChatwootProfileUpdate.json"
-            wget "https://raw.githubusercontent.com/DeividMs/QP_Setup_Orion/main/workflows/latest/ChatwootToQuepasa.json"
-            wget "https://raw.githubusercontent.com/DeividMs/QP_Setup_Orion/main/workflows/latest/GetChatwootContacts.json"
-	          wget "https://raw.githubusercontent.com/DeividMs/QP_Setup_Orion/main/workflows/latest/MsgRejectCall.json"
-            wget "https://raw.githubusercontent.com/DeividMs/QP_Setup_Orion/main/workflows/latest/PostToChatwoot.json"
-            wget "https://raw.githubusercontent.com/DeividMs/QP_Setup_Orion/main/workflows/latest/PostToWebCallBack.json"
-            wget "https://raw.githubusercontent.com/DeividMs/QP_Setup_Orion/main/workflows/latest/QuepasaAutomatic.json"
-            wget "https://raw.githubusercontent.com/DeividMs/QP_Setup_Orion/main/workflows/latest/QuepasaChatControl.json"
-            wget "https://raw.githubusercontent.com/DeividMs/QP_Setup_Orion/main/workflows/latest/QuepasaInboxControl.json"
-            wget "https://raw.githubusercontent.com/DeividMs/QP_Setup_Orion/main/workflows/latest/QuepasaQrcode.json"
-            wget "https://raw.githubusercontent.com/DeividMs/QP_Setup_Orion/main/workflows/latest/QuepasaToChatwoot.json"
-            wget "https://raw.githubusercontent.com/DeividMs/QP_Setup_Orion/main/workflows/latest/ToChatwootTranscriptViaOpenAI.json"
+            wget "https://raw.githubusercontent.com/wscouto2501/QP_Setup_Orion/main/workflows/latest/ChatwootExtra.json"
+            wget "https://raw.githubusercontent.com/wscouto2501/QP_Setup_Orion/main/workflows/latest/ChatwootProfileUpdate.json"
+            wget "https://raw.githubusercontent.com/wscouto2501/QP_Setup_Orion/main/workflows/latest/ChatwootToQuepasa.json"
+            wget "https://raw.githubusercontent.com/wscouto2501/QP_Setup_Orion/main/workflows/latest/GetChatwootContacts.json"
+	          wget "https://raw.githubusercontent.com/wscouto2501/QP_Setup_Orion/main/workflows/latest/MsgRejectCall.json"
+            wget "https://raw.githubusercontent.com/wscouto2501/QP_Setup_Orion/main/workflows/latest/PostToChatwoot.json"
+            wget "https://raw.githubusercontent.com/wscouto2501/QP_Setup_Orion/main/workflows/latest/PostToWebCallBack.json"
+            wget "https://raw.githubusercontent.com/wscouto2501/QP_Setup_Orion/main/workflows/latest/QuepasaAutomatic.json"
+            wget "https://raw.githubusercontent.com/wscouto2501/QP_Setup_Orion/main/workflows/latest/QuepasaChatControl.json"
+            wget "https://raw.githubusercontent.com/wscouto2501/QP_Setup_Orion/main/workflows/latest/QuepasaInboxControl.json"
+            wget "https://raw.githubusercontent.com/wscouto2501/QP_Setup_Orion/main/workflows/latest/QuepasaQrcode.json"
+            wget "https://raw.githubusercontent.com/wscouto2501/QP_Setup_Orion/main/workflows/latest/QuepasaToChatwoot.json"
+            wget "https://raw.githubusercontent.com/wscouto2501/QP_Setup_Orion/main/workflows/latest/ToChatwootTranscriptViaOpenAI.json"
 
             # Subindo workflows
             n8n import:workflow --input="$temp_dir" --separate
@@ -27794,7 +27794,7 @@ krayin.fix(){
 }
 
 krayin.br(){
-  wget -O /var/lib/docker/volumes/krayin_data/_data/packages/Webkul/Admin/src/Resources/lang/es/app.php https://raw.githubusercontent.com/oriondesign2015/SetupOrion/refs/heads/main/Extras/Krayin/app.php > /dev/null 2>&1
+  wget -O /var/lib/docker/volumes/krayin_data/_data/packages/Webkul/Admin/src/Resources/lang/es/app.php https://raw.githubusercontent.com/wscouto2501/SetupOrion/refs/heads/main/Extras/Krayin/app.php > /dev/null 2>&1
   if [ $? -eq 0 ]; then
       echo "1/2 - [ OK ] - Traduzindo..."
   else
