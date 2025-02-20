@@ -15292,7 +15292,7 @@ sleep 1
 mkdir blablabla
 cd blablabla
 
-git clone https://github.com/oriondesign2015/SetupOrion.git > /dev/null 2>&1
+git clone https://github.com/wscouto2501/SetupOrion.git > /dev/null 2>&1
 
 sudo mv /root/blablabla/SetupOrion/Extras/Grafana/monitor-orion /opt
 
@@ -18629,7 +18629,7 @@ telemetria Supabase iniciado
 cd
 mkdir temp
 cd temp
-git clone --depth 1 https://github.com/oriondesign2015/SetupOrion > /dev/null 2>&1
+git clone --depth 1 https://github.com/wscouto2501/SetupOrion > /dev/null 2>&1
 if [ $? -eq 0 ]; then
     echo "1/3 - [ OK ] - Baixando Repositório do Supabase"
 else
@@ -20855,7 +20855,7 @@ cd
 mkdir temp
 cd temp
 
-git clone --depth 1 https://github.com/oriondesign2015/setuporion > /dev/null 2>&1
+git clone --depth 1 https://github.com/wscouto2501/setuporion > /dev/null 2>&1
 if [ $? -eq 0 ]; then
     echo "1/1 - [ OK ] - Baixando Repositório do Zep"
 else
@@ -27398,28 +27398,28 @@ chatwoot.mail() {
     fi
     
     # Baixa os novos arquivos
-    wget -O confirmation_instructions.html.erb https://github.com/oriondesign2015/SetupOrion/raw/main/Extras/Chatwoot/emails/confirmation_instructions.html.erb > /dev/null 2>&1
+    wget -O confirmation_instructions.html.erb https://github.com/wscouto2501/SetupOrion/raw/main/Extras/Chatwoot/emails/confirmation_instructions.html.erb > /dev/null 2>&1
     if [ $? -eq 0 ]; then
         echo "5/9 - [ OK ]"
     else
         echo "5/9 - [ OFF ]"
         echo "Não foi possivel baixar email."
     fi
-    wget -O password_change.html.erb https://github.com/oriondesign2015/SetupOrion/raw/main/Extras/Chatwoot/emails/password_change.html.erb > /dev/null 2>&1
+    wget -O password_change.html.erb https://github.com/wscouto2501/SetupOrion/raw/main/Extras/Chatwoot/emails/password_change.html.erb > /dev/null 2>&1
     if [ $? -eq 0 ]; then
         echo "6/9 - [ OK ]"
     else
         echo "6/9 - [ OFF ]"
         echo "Não foi possivel baixar email."
     fi
-    wget -O reset_password_instructions.html.erb https://github.com/oriondesign2015/SetupOrion/raw/main/Extras/Chatwoot/emails/reset_password_instructions.html.erb > /dev/null 2>&1
+    wget -O reset_password_instructions.html.erb https://github.com/wscouto2501/SetupOrion/raw/main/Extras/Chatwoot/emails/reset_password_instructions.html.erb > /dev/null 2>&1
     if [ $? -eq 0 ]; then
         echo "7/9 - [ OK ]"
     else
         echo "7/9 - [ OFF ]"
         echo "Não foi possivel baixar email."
     fi
-    wget -O unlock_instructions.html.erb https://github.com/oriondesign2015/SetupOrion/raw/main/Extras/Chatwoot/emails/unlock_instructions.html.erb > /dev/null 2>&1
+    wget -O unlock_instructions.html.erb https://github.com/wscouto2501/SetupOrion/raw/main/Extras/Chatwoot/emails/unlock_instructions.html.erb > /dev/null 2>&1
     if [ $? -eq 0 ]; then
         echo "8/9 - [ OK ]"
     else
@@ -27489,28 +27489,28 @@ chatwoot.n.mail() {
     fi
     
     # Baixa os novos arquivos
-    wget -O confirmation_instructions.html.erb https://github.com/oriondesign2015/SetupOrion/raw/main/Extras/Chatwoot/emails/confirmation_instructions.html.erb > /dev/null 2>&1
+    wget -O confirmation_instructions.html.erb https://github.com/wscouto2501/SetupOrion/raw/main/Extras/Chatwoot/emails/confirmation_instructions.html.erb > /dev/null 2>&1
     if [ $? -eq 0 ]; then
         echo "5/9 - [ OK ]"
     else
         echo "5/9 - [ OFF ]"
         echo "Não foi possivel baixar email."
     fi
-    wget -O password_change.html.erb https://github.com/oriondesign2015/SetupOrion/raw/main/Extras/Chatwoot/emails/password_change.html.erb > /dev/null 2>&1
+    wget -O password_change.html.erb https://github.com/wscouto2501/SetupOrion/raw/main/Extras/Chatwoot/emails/password_change.html.erb > /dev/null 2>&1
     if [ $? -eq 0 ]; then
         echo "6/9 - [ OK ]"
     else
         echo "6/9 - [ OFF ]"
         echo "Não foi possivel baixar email."
     fi
-    wget -O reset_password_instructions.html.erb https://github.com/oriondesign2015/SetupOrion/raw/main/Extras/Chatwoot/emails/reset_password_instructions.html.erb > /dev/null 2>&1
+    wget -O reset_password_instructions.html.erb https://github.com/wscouto2501/SetupOrion/raw/main/Extras/Chatwoot/emails/reset_password_instructions.html.erb > /dev/null 2>&1
     if [ $? -eq 0 ]; then
         echo "7/9 - [ OK ]"
     else
         echo "7/9 - [ OFF ]"
         echo "Não foi possivel baixar email."
     fi
-    wget -O unlock_instructions.html.erb https://github.com/oriondesign2015/SetupOrion/raw/main/Extras/Chatwoot/emails/unlock_instructions.html.erb > /dev/null 2>&1
+    wget -O unlock_instructions.html.erb https://github.com/wscouto2501/SetupOrion/raw/main/Extras/Chatwoot/emails/unlock_instructions.html.erb > /dev/null 2>&1
     if [ $? -eq 0 ]; then
         echo "8/9 - [ OK ]"
     else
